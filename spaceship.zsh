@@ -71,9 +71,9 @@ if [ -z "$SPACESHIP_PROMPT_ORDER" ]; then
     line_sep      # Line break
     battery       # Battery level and status
     vi_mode       # Vi-mode indicator
-    jobs          # Background jobs indicator
     exit_code     # Exit code section
     char          # Prompt character
+    jobs          # Background jobs indicator
   )
 fi
 
@@ -89,7 +89,7 @@ SPACESHIP_PROMPT_SEPARATE_LINE="${SPACESHIP_PROMPT_SEPARATE_LINE=true}"
 SPACESHIP_PROMPT_FIRST_PREFIX_SHOW="${SPACESHIP_PROMPT_FIRST_PREFIX_SHOW=false}"
 SPACESHIP_PROMPT_PREFIXES_SHOW="${SPACESHIP_PROMPT_PREFIXES_SHOW=true}"
 SPACESHIP_PROMPT_SUFFIXES_SHOW="${SPACESHIP_PROMPT_SUFFIXES_SHOW=true}"
-SPACESHIP_PROMPT_DEFAULT_PREFIX="${SPACESHIP_PROMPT_DEFAULT_PREFIX="via "}"
+SPACESHIP_PROMPT_DEFAULT_PREFIX="${SPACESHIP_PROMPT_DEFAULT_PREFIX=""}"
 SPACESHIP_PROMPT_DEFAULT_SUFFIX="${SPACESHIP_PROMPT_DEFAULT_SUFFIX=" "}"
 
 # ------------------------------------------------------------------------------
